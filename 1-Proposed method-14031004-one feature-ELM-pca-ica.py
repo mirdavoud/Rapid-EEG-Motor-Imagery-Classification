@@ -1,11 +1,4 @@
 """
-Windowing method in eeg data how can implement? Write code in tf and keras for eeg data: x(168,118,400) ,y(168) .Apply windowing method, extract feature after band pass filter applyed on mu and beta rythms then use the FBCSP feature extraction method . Use a feature selection method to select best informative features. After feature extraction and selection , use a classification deep learning model such as CNN for classification. 
-Steps Overview:
-Windowing: Segment the EEG signals into fixed-sized overlapping windows.
-Band-pass Filtering: Apply band-pass filters for mu (8-13 Hz) and beta (13-30 Hz) rhythms.
-Feature Extraction using FBCSP: Extract spatial features using Filter Bank Common Spatial Patterns (FBCSP).
-Feature Selection: Select the most informative features.
-Classification: Train a CNN on the selected features for classification.
 Python Code Implementation"""
 #%%
 # Step 1: Setup and Imports
